@@ -4,6 +4,19 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>TeleLite — Telegram-боты для специалистов</title>
+  <meta name="description" content="Telegram-боты под ключ для коучей, психологов и частных специалистов: запись 24/7, приём оплаты и автоматические напоминания. Разработка за 5–7 дней."/>
+  <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)"/>
+  <meta name="theme-color" content="#0C0F1E" media="(prefers-color-scheme: dark)"/>
+  <link rel="icon" type="image/png" href="data:image/png;base64,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"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:locale" content="ru_RU"/>
+  <meta property="og:site_name" content="TeleLite"/>
+  <meta property="og:title" content="TeleLite — Telegram-боты для специалистов"/>
+  <meta property="og:description" content="Клиенты записываются сами: запись 24/7, оплата и напоминания на автопилоте. Разработка за 5–7 дней."/>
+  <!-- Когда узнаете адрес сайта, добавьте картинку для превью в мессенджерах:
+       <meta property="og:url" content="https://ваш-домен/"/>
+       <meta property="og:image" content="https://ваш-домен/preview.png"/>   (1200x630) -->
+  <meta name="twitter:card" content="summary_large_image"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -89,8 +102,6 @@
     .chk { width:18px; height:18px; border-radius:50%; flex-shrink:0; margin-top:2px; background:linear-gradient(135deg,#4BACF8,#9B7EF8); display:flex; align-items:center; justify-content:center; color:#fff; font-size:.58rem; font-weight:800; }
 
     /* ── REVIEWS ── */
-    .reviews-outer { overflow: hidden; }
-    .reviews-track { display: flex; gap: 16px; transition: transform .42s cubic-bezier(.4,0,.2,1); }
     .reviews-outer { overflow: hidden; width: 100%; }
     .reviews-track { display: flex; gap: 16px; transition: transform .42s cubic-bezier(.4,0,.2,1); will-change: transform; }
     .rv-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 28px; flex-shrink: 0; box-shadow: 0 2px 16px rgba(80,80,180,.07); transition: box-shadow .22s; word-break: break-word; overflow-wrap: break-word; }
@@ -305,6 +316,17 @@
       .logo-name { font-size:.95rem; }
       .nav-btn { padding:8px 13px; font-size:.75rem; }
     }
+
+    /* ── узкие экраны: шапка не слипается ── */
+    @media(max-width:420px){
+      .logo img { width:32px; height:32px; }
+      .logo-name { font-size:.88rem; }
+      .theme-switch { transform:translate(-50%,-50%) scale(.8); }
+      .nav-btn { padding:8px 11px; font-size:.72rem; gap:5px; }
+      .fgrid, .pgrid, .pgrid2 { grid-template-columns:1fr; }
+    }
+    body { overflow-x:hidden; }
+    .m-table { table-layout:fixed; word-break:break-word; }
   </style>
 <script>(function(){try{var t=localStorage.getItem("tl_theme");if(t!=="dark"&&t!=="light")t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);}catch(e){document.documentElement.setAttribute("data-theme","light");}})();</script>
 </head>
@@ -375,7 +397,7 @@
   <div class="wrap">
     <div class="sh r">
       <div class="tag">Что делает бот</div>
-      <h2>Всё что нужно — в одном месте</h2>
+      <h2>Всё, что нужно, — в одном месте</h2>
       <p>Бот берёт на себя всю рутину. Вы получаете готового клиента на сессию.</p>
     </div>
     <div class="fgrid">
@@ -435,7 +457,7 @@
         <div class="pdesc">Полная автоматизация</div>
         <div class="psubtitle">Для записи, оплаты, анкетирования и расширенной автоматизации.</div>
         <ul class="plist">
-          <li><span class="chk">✓</span>Всё из тарифа "Старт"</li>
+          <li><span class="chk">✓</span>Всё из тарифа «Старт»</li>
           <li><span class="chk">✓</span>Приём оплаты прямо в боте</li>
           <li><span class="chk">✓</span>Расширенная скоринг-анкета</li>
           <li><span class="chk">✓</span>Неограниченное количество услуг</li>
@@ -451,7 +473,7 @@
           <li><span class="chk">✓</span>Мелкие правки и обновления</li>
           <li><span class="chk">✓</span>Контроль работы сервера</li>
           <li><span class="chk">✓</span>Личный технический ассистент</li>
-          <li><span class="chk">✓</span>Ответ в течение дня (обычно 1-3 часа)</li>
+          <li><span class="chk">✓</span>Ответ в течение дня (обычно 1–3 часа)</li>
           <li><span class="chk">✓</span>Ежемесячный мини-аудит</li>
           <li><span class="chk">✓</span>Подключить можно в любой момент</li>
         </ul>
@@ -474,7 +496,7 @@
         <div class="rv-card">
           <div class="rv-stars"><span class="rv-star">★</span><span class="rv-star">★</span><span class="rv-star">★</span><span class="rv-star">★</span><span class="rv-star">★</span></div>
           <p class="rv-text">«Раньше тратила по 2-3 часа в день только на переписку. Теперь клиенты записываются сами. даже ночью. В первый месяц не потеряла ни одной записи, бот напоминает и за меня.»</p>
-          <div class="rv-author"><div class="rv-ava">МС</div><div><div class="rv-name">Maree</div><div class="rv-role">Коуч по уверенности, Москва</div></div></div>
+          <div class="rv-author"><div class="rv-ava">M</div><div><div class="rv-name">Maree</div><div class="rv-role">Коуч по уверенности, Москва</div></div></div>
         </div>
 
         <div class="rv-card">
@@ -486,13 +508,13 @@
         <div class="rv-card">
           <div class="rv-stars"><span class="rv-star">★</span><span class="rv-star">★</span><span class="rv-star">★</span><span class="rv-star">★</span><span class="rv-star">★</span></div>
           <p class="rv-text">«Запустили 5 дня, точно в срок. Анкету настроили под мою специфику. Клиенты говорят — запись у меня удобнее, чем в обычных клиниках.»</p>
-          <div class="rv-author"><div class="rv-ava">АЛ</div><div><div class="rv-name">Анна</div><div class="rv-role">Нутрициолог и health-коуч, Москва</div></div></div>
+          <div class="rv-author"><div class="rv-ava">А</div><div><div class="rv-name">Анна</div><div class="rv-role">Нутрициолог и health-коуч, Москва</div></div></div>
         </div>
 
         <div class="rv-card">
           <div class="rv-stars"><span class="rv-star">★</span><span class="rv-star">★</span><span class="rv-star">★</span><span class="rv-star">★</span><span class="rv-star">★</span></div>
           <p class="rv-text">«У меня разные форматы встреч и сложное расписание. Бот справляется, разграничивает типы консультаций и принимает предоплату. Отмен почти не стало. Результатом доволен.»</p>
-          <div class="rv-author"><div class="rv-ava">СП</div><div><div class="rv-name">Sergey</div><div class="rv-role">Бизнес-коуч, Москва</div></div></div>
+          <div class="rv-author"><div class="rv-ava">S</div><div><div class="rv-name">Sergey</div><div class="rv-role">Бизнес-коуч, Москва</div></div></div>
         </div>
 
         <div class="rv-card">
@@ -520,7 +542,7 @@
   <div class="wrap">
     <div class="cta-box r">
       <div class="tag">Начать просто</div>
-      <h2>Покажем как это будет у вас — бесплатно</h2>
+      <h2>Покажем, как это будет у вас — бесплатно</h2>
       <p>Напишите нам — за 15 минут разберём вашу ситуацию и покажем демо. Без обязательств.</p>
       <a href="https://t.me/rusyatoky" target="_blank" rel="noopener noreferrer" class="btn-main">Написать в Telegram →</a>
     </div>
@@ -704,6 +726,20 @@
     document.getElementById("rv-prev").addEventListener("click", () => go(cur - 1));
     document.getElementById("rv-next").addEventListener("click", () => go(cur + 1));
 
+    /* свайп пальцем */
+    let tx = 0, ty = 0, swiping = false;
+    outer.addEventListener("touchstart", function (e) {
+      if (e.touches.length !== 1) return;
+      tx = e.touches[0].clientX; ty = e.touches[0].clientY; swiping = true;
+    }, { passive: true });
+    outer.addEventListener("touchend", function (e) {
+      if (!swiping) return;
+      swiping = false;
+      const t = e.changedTouches[0];
+      const dx = t.clientX - tx, dy = t.clientY - ty;
+      if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy) * 1.4) go(cur + (dx < 0 ? 1 : -1));
+    }, { passive: true });
+
     let resizeTimer;
     window.addEventListener("resize", () => {
       clearTimeout(resizeTimer);
@@ -808,25 +844,48 @@
   let px = 0, py = 0, mx = 0, my = 0;
 
   /* ── построение сцены ── */
-  function build() {
+  function spawn(i) {
+    return {
+      x: Math.random() * W,
+      y: Math.random() * H,
+      vx: (Math.random() - .5) * .22,
+      vy: (Math.random() - .5) * .22,
+      r: 1.6 + Math.random() * 2.2,
+      c: PALETTE[i % PALETTE.length]
+    };
+  }
+
+  function target() { return W < 560 ? 13 : W < 960 ? 20 : 28; }
+
+  function measure() {
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
-    W = cnv.clientWidth; H = cnv.clientHeight;
+    const nw = cnv.clientWidth, nh = cnv.clientHeight;
+    const sx = W ? nw / W : 1, sy = H ? nh / H : 1;
+    W = nw; H = nh;
     cnv.width = W * dpr; cnv.height = H * dpr;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    return [sx, sy];
+  }
 
-    const count = W < 560 ? 13 : W < 960 ? 20 : 28;
+  function build() {
+    measure();
     dots = [];
-    for (let i = 0; i < count; i++) {
-      dots.push({
-        x: Math.random() * W,
-        y: Math.random() * H,
-        vx: (Math.random() - .5) * .22,
-        vy: (Math.random() - .5) * .22,
-        r: 1.6 + Math.random() * 2.2,
-        c: PALETTE[i % PALETTE.length]
-      });
-    }
+    for (let i = 0; i < target(); i++) dots.push(spawn(i));
     pulses = [];
+  }
+
+  /* подстройка под новый размер БЕЗ пересоздания узлов:
+     иначе рисунок скачет каждый раз, когда в мобильном браузере
+     прячется адресная строка */
+  function adapt() {
+    const s = measure();
+    for (const d of dots) { d.x *= s[0]; d.y *= s[1]; }
+    const n = target();
+    while (dots.length < n) dots.push(spawn(dots.length));
+    if (dots.length > n) {
+      dots.length = n;
+      pulses = pulses.filter(function (p) { return p.a < n && p.b < n; });
+    }
   }
 
   /* ── кадр ── */
@@ -960,6 +1019,7 @@
 
   /* ── события ── */
   hero.addEventListener("pointermove", function (e) {
+    if (e.pointerType && e.pointerType !== "mouse") return;
     const r = hero.getBoundingClientRect();
     mx = ((e.clientX - r.left) / r.width - .5) * 22;
     my = ((e.clientY - r.top) / r.height - .5) * 16;
@@ -968,8 +1028,10 @@
 
   let rt;
   window.addEventListener("resize", function () {
+    /* реальный размер не изменился — значит это просто адресная строка */
+    if (cnv.clientWidth === W && cnv.clientHeight === H) return;
     clearTimeout(rt);
-    rt = setTimeout(function () { build(); if (soft) draw(0); }, 150);
+    rt = setTimeout(function () { adapt(); if (soft) draw(0); }, 150);
   });
 
   window.addEventListener("scroll", onScroll, { passive: true });
